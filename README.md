@@ -1,18 +1,22 @@
 # Blazor-Components
 
+These component you can use them up and running..
 
-//Call ModalDialog 
+
+
 ```cs
-    <ModalDialog Title='AreYouSure'
-             Text='ConfirmDelete"'
-             OnClose="@OnDialogClose"
-             DialogType="ModalDialogType.DeleteCancel">
-    </ModalDialog>
+// Call ModalDialog 
+<ModalDialog Title='AreYouSure'
+     Text='ConfirmDelete"'
+     OnClose="@OnDialogClose"
+     DialogType="ModalDialogType.DeleteCancel">
+</ModalDialog>
 ```
         
-//Call ToastDialog 
+
 ```cs
-   <ToastDialog IsSuccessed='true'
-          ToastMessage='toastMessage'>
-   </ToastDialog>
+// Call ToastDialog 
+<ToastDialog IsSuccessed='true'
+      ToastMessage='toastMessage'>
+</ToastDialog>
 ```
